@@ -25,3 +25,4 @@ jobs:
           log_level: DEBUG
         env:
           BOOST_SCANNER_REGISTRY_REPO: https://github.com/boostsecurityio/dev-registry.git#add-semgrep-pro
+          SEMGREP_APP_TOKEN: ${{ secrets.SEMGREP_APP_TOKEN }}
